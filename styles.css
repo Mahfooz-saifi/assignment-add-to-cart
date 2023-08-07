@@ -3,11 +3,9 @@
       flex-direction: column;
       margin: auto;
     }
-
     body {
       display: flex;
     }
-
     /* heading style css code */
     h5 {
       color: #2E8B57;
@@ -18,7 +16,6 @@
       text-align: center;
       margin-bottom: 15px;
     }
-
     h5:before,
     h5:after {
       position: absolute;
@@ -29,7 +26,6 @@
       content: '\a0';
       background-color: #2E8B57;
     }
-
     h5:before {
       margin-left: -50%;
       text-align: right;
@@ -46,40 +42,20 @@
       padding: 10px;
       margin-bottom: 10px;
     }
-
     .card-three {
       margin-bottom: 20px;
     }
-
-    .radio-btn {
-      position: absolute;
-      left: 30.5rem;
-      top: 6rem;
+    .pair{
+      margin-right: 100px;
     }
-
-    .radio-btn1 {
-      position: absolute;
-      left: 30.5rem;
-      top: 10.4rem;
-    }
-
-    .radio-btn2 {
-      position: absolute;
-      left: 30.5rem;
-      top: 19.2rem;
-    }
-
     .discount-price-second {
       display: flex;
       justify-content: space-around;
     }
-
     .discount-price {
       margin-left: 75px;
     }
-
    /* second box start */
-
     .card2 {
       border: 1px solid #2E8B57;
       background-color: #F5F5F5;
@@ -89,38 +65,31 @@
       padding: 10px;
       margin-bottom: 10px;
     }
-
     .pair-flex {
       display: flex;
       justify-content: space-around;
-      margin-left: -10px
+      /* margin-left: -10px */
+      margin-right: -3rem;
     }
-
     .box-cardSize {
       display: flex;
       margin-left: 21px;
       margin-top: 9px;
     }
-
-    
     .box-three,
     .box-four {
       margin-left: 8px;
     }
-
     .price-off {
       margin-right: 33px
     }
-
     .ddk-price {
-      margin-left: 30px;
+      margin-left: 14px;
     }
-
     .strick-inline-price {
       color: gray;
       font-size: 13px;
     }
-
     .size-drop {
       margin-left: 19px;
       margin-bottom: 2px;
@@ -131,14 +100,12 @@
       display: flex;
       justify-content: space-between;
     }
-
     /* buttn style code  */
     .button-cart {
       margin-top: 20px;
       display: flex;
       justify-content: center;
     }
-
     .add-btn {
       width: 400px;
       padding: 10px;
@@ -148,15 +115,11 @@
       text-align: center;
       border-radius: 7px;
     }
-
-    
-
     .copyright-div {
       display: flex;
       justify-content: end;
       margin-top: 3px;
     }
-
     strong {
       font-weight: 600;
     }
